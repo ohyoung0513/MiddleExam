@@ -1,0 +1,168 @@
+@font-face {
+    font-family: "源雲明體";
+    src: url('./font/GenWanMin\ TW\ SemiBold.woff')format("woff")
+         
+}
+
+html,body{
+    font-family: "源雲明體";
+    height: 100%;
+    margin: 0;
+}
+
+.wrapped{
+    min-height: 100%;
+    
+}
+
+header{
+    
+    height: 144px;
+    width: auto;
+    background: #F8F9F9;
+    padding: 1%  2%;
+    /*margin-bottom: 3%;*/
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    width: 297px;
+    height: 55px;
+}
+
+.Links{
+    width: 173px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.YT{
+    width: 77px;
+}
+
+.FB{
+    width: 77px;
+}
+
+.nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a{
+    color: #364246;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+footer{
+    width: 100%;
+    height: 61px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background: #364246;
+    color:#F8F9F9;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+/*TOP*/
+.cover{
+    width: 100%;
+    height: 50%;
+}
+  
+.TitleCharacter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.TitleCharacter p{
+    color: #364246;
+    font-family: "GenWanMin TW TTF";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+/*story*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 4%;
+}
+
+.sky{
+    margin-right: 5%;
+}
+
+.TitleStory{
+    color: #364246;
+    font-family: "GenWanMin TW TTF";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.text{
+    font-size: 20px;
+    line-height: 200%;
+    letter-spacing: 3px;
+}
+
+
+/*movie*/
+.content{
+    bottom: 5%;
+}
+
+.TitleMovie{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.TitleMovie p{
+    color: #364246;
+    font-family: "GenWanMin TW TTF";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.line{
+    width: 30%;
+    height: 3px;
+    background-color: #E2E7E8;
+}
+.MoviePv{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.popup-youtube{
+    width: 1160px;
+    height: 586px;
+    box-shadow: 10px 10px 0px 0px #9DBBF6;
+    background: url("Images/PvSubnail.png");
+    background-size: cover; /* 将背景图片放大以填满视口 */
+    background-repeat: no-repeat; /* 防止图片重复 */
+    background-position: center center; 
+}
