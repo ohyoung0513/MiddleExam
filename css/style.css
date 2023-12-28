@@ -17,7 +17,7 @@ html,body{
 
 header{
     
-    height: 144px;
+    height: 86px;
     width: auto;
     background: #F8F9F9;
     padding: 1%  2%;
@@ -29,35 +29,57 @@ header{
 }
 
 .logo{
-    width: 297px;
-    height: 55px;
+    width: 246px;
+    height: 46px;
 }
 
 .Links{
     width: 173px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .YT{
-    width: 77px;
+    width: 54px;
+    height: 54px;
 }
 
 .FB{
-    width: 77px;
+    width: 54px;
+    height: 54px;
 }
 
-.nav{
-    width: 50%;
+.container-fluid{
+    width: 100%;
+}
+
+.navbar-nav{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
-.nav a{
-    color: #364246;
+.nav-link{
+    font-family: "GenWanMin TW TTF";
+    color: #000000;
     font-weight: bold;
     font-size: 30px;
     text-decoration: none;
+}
+
+.download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 38px;
+    width: 194px;
+    height: 51px;
+    background-image: linear-gradient(to top left, #6297FF, #78B3F6);
+}
+
+.download-btn{
+    color: white;
+    font-weight: 600;
 }
 
 
